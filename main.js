@@ -182,5 +182,4 @@ function togglePasswordVisibility() {
         toggleIcon.classList.remove('fa-eye-slash');
         toggleIcon.classList.add('fa-eye');
     }
-
 }
