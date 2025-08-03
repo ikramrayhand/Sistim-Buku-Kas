@@ -30,7 +30,7 @@ const adminSection = document.getElementById('admin-section');
 // Fungsi untuk memuat data dari JSON (simulasi panggilan API)
 async function loadDB() {
     try {
-    const response = await fetch('data/db.json');
+    const response = await fetch('db.json');
     db = await response.json();
     console.log('Database loaded:', db);
 
@@ -182,4 +182,5 @@ function togglePasswordVisibility() {
         toggleIcon.classList.remove('fa-eye-slash');
         toggleIcon.classList.add('fa-eye');
     }
+
 }
